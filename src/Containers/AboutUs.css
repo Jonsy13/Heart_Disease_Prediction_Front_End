@@ -1,0 +1,17 @@
+.AboutUs{
+  margin:10px 10px 10px 10px;
+}
+
+.Back{
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  border: 0ch;
+  background-color: #30475e;
+  margin : 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .Back{
+      margin: 5px 20px 5px 20px;
+  }
+ 
+}
