@@ -1,5 +1,4 @@
 {
-  "homepage": "http://jonsy13.github.io/Heart_Disease_Predictor",
   "name": "front_end",
   "version": "0.1.0",
   "private": true,
@@ -23,8 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,8 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
