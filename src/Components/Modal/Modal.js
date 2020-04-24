@@ -17,13 +17,12 @@ class ModalOver extends React.Component {
     render() {
         return (
             <Modal
-
+                size="sm"
                 show={this.state.show}
                 onHide={this.handleClose}
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
                 animation={true}
-
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter"  >

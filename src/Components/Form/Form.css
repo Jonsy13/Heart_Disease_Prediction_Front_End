@@ -1,21 +1,26 @@
 .Jumbo2{
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
-    margin: 20px 10px 20px 10px;
-    background-image: url("../../Assets/ML.jpg");
+    margin: 20px 15px 20px 15px;
+    /* background-image: url("../../Assets/ML.jpg"); */
+    background-color:#30475e;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-attachment: fixed;
-    color: antiquewhite;
+    color: #eff3c6;
     display: flexbox;
 }
 
 .FormGY{
-    margin: 10px 50px 10px 50px;
+    margin: 5px 20px 5px 20px;
 }
 
 .logo{
     margin-top: 200px;
+}
+
+.bt{
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -24,7 +29,11 @@
 
     }
     .FormGY{
-        margin: 5px 5px 5px 5px;
+        margin: 2px 3px 2px 3px;
     }
    
+  }
+
+  .imgback{
+    shape-outside: 10px 10px 50px rgba(0, 0, 0, 0.5);
   }
