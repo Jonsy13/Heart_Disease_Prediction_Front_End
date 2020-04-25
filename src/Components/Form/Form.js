@@ -282,7 +282,7 @@ class Former extends React.Component {
                                             <Form.Row>
                                                 <Form.Label className="bt">Thalassemia</Form.Label>
                                             
-                                                    <Form.Control column="sm"  size="sm" placeholder="Thal" onChange={this.ThalChange} as="select">
+                                                    <Form.Control column="sm"  size="sm" onChange={this.ThalChange} as="select">
                                                         <option value="3">Normal</option>
                                                         <option value="6">Fixed Defect</option>
                                                         <option value="7">Reversible Defect</option>
