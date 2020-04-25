@@ -3,6 +3,7 @@ import React from "react";
 import Form from "../Components/Form/Form";
 // import Form2 from "../Components/Form/Form2"
 // import { Row, Col, Button,Container} from 'react-bootstrap'
+// import HP from '../Components/HomePage/HomePage';
 
 
 class Home extends React.Component {
@@ -10,11 +11,7 @@ class Home extends React.Component {
     return (
       <div>
         <Form />
-        {/* <Container fluid>
-          <Row>
-            <Col> <Form2 /></Col>
-          </Row>
-        </Container> */}
+        {/* <HP /> */}
        
       </div>
     );
