@@ -59,7 +59,7 @@ class Former extends React.Component {
         this.setState({ Restecg: event.target.value });
     }
 
-    ThalChange = event => {
+    ThalAchChange = event => {
         this.setState({ Thalach: event.target.value });
     }
 
@@ -229,7 +229,7 @@ class Former extends React.Component {
                                             <Form.Row>
                                                 <Form.Label className="bt">Max. Heart Rate Achieved</Form.Label>
                                              
-                                                    <Form.Control column="sm"  size="sm" type="text" placeholder="Thalach Here" onChange={this.ThalChange} />
+                                                    <Form.Control column="sm"  size="sm" type="text" placeholder="Thalach Here" onChange={this.ThalAchChange} />
                                              
                                             </Form.Row>
                                         </Form.Group>
