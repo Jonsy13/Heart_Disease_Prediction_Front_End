@@ -153,7 +153,7 @@ class Former extends React.Component {
                                         <Form.Group controlId="Age">
                                             <Form.Row>
                                                 <Form.Label size = "sm" className="bt">Age</Form.Label>
-                                                <Form.Control column="sm" size="sm" type="text" placeholder="Enter Your Age Here" onChange={this.AgeChange} />
+                                                <Form.Control column="sm" size="sm" type="text" placeholder="Age Here" onChange={this.AgeChange} />
                                             </Form.Row>
 
                                         </Form.Group>

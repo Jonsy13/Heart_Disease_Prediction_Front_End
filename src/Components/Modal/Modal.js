@@ -1,5 +1,6 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap'
+import './Modal.css';
 
 class ModalOver extends React.Component {
 
@@ -26,7 +27,7 @@ class ModalOver extends React.Component {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter"  >
-                        Blood Disease Classifier
+                        Blood Pressure Classifier
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
